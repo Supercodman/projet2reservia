@@ -1,0 +1,54 @@
+body {
+    font-family: 'Raleway', Arial, sans-serif;
+    max-width: 1440px;
+    width: 100%;
+    height: auto;
+    margin: auto; 
+    font-size: 0.9em;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    width: auto;
+}
+nav li {
+    text-align: center;
+    padding-top: 2em;
+
+}
+a {
+  text-decoration: none;  
+
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  header {
+    display: block;
+    margin-bottom: 2em;
+  }
+  nav ul {
+    margin: 0;
+    padding:0;
+    justify-content: flex-start;
+    width: auto;
+  }
+  nav li {
+    margin:0;
+
+  }
+  .ancre {
+    width: 50%;
+    padding-bottom: 1em;
+    border-bottom: solid 2px #f2f2f2 ;
+  }
+  .inscription {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+  }
+}

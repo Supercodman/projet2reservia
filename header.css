@@ -26,7 +26,41 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+#marqueur{
+  display:flex;
+  justify-content:center;
+  background-color: #f2f2f2;
+  border-radius: 27% 0 0 27%;
+}
+.fa-map-marker-alt{
+  width:3em;
+  font-size:1.1em;
+  background-color: #f2f2f2;
+  color: black;
+  margin:auto;
+  text-align: center;
+}
 @media screen and (max-width: 768px) {
+  .bouton-texte{
+    display:none;
+  }
+  .bouton-loupe{
+    display:flex;
+    width: 50px;
+    justify-content: center;
+    background-color: #0065fc;
+    border-radius:30%;
+    margin-left:-15px;
+  }
+  .fa-search{
+    width:3em;
+    font: size 1.1em;
+    background-color: #0065fc;
+    color: white;
+    margin:auto;
+    text-align:center;
+
+  }
   header {
     display: block;
     margin-bottom: 2em;
